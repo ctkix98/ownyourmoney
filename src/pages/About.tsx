@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Heart, Target, Users, Handshake, BookOpen, ArrowRight } from "lucide-react";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import mascotStanding from "@/assets/mascot-standing.jpg";
+import mascotStanding from "@/assets/mascot-standing.svg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
