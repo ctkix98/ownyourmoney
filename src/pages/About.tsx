@@ -194,30 +194,6 @@ const About = () => (
       </div>
     </section>
 
-    {/* Partners */}
-    <section className="section-padding bg-muted/30">
-      <div className="container-narrow mx-auto text-center">
-        <motion.div {...fadeUp}>
-          <Handshake size={36} className="text-muted-foreground mx-auto mb-4" />
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Supported by committed partners</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
-            We collaborate with partners who share our commitment to education and prevention. 
-            Their support helps us deliver high-quality workshops and expand our impact, while 
-            maintaining a fully independent and educational approach.
-          </p>
-          <p className="text-muted-foreground/70 text-sm max-w-xl mx-auto leading-relaxed mb-10">
-            The project is supported by Yuh as a strategic partner, contributing to its development 
-            while ensuring the educational neutrality of the initiative.
-          </p>
-          <div className="flex items-center justify-center">
-            <div className="bg-card border border-border rounded-2xl px-10 py-6">
-              <img src={yuhLogo} alt="Yuh" className="h-8 opacity-60" />
-            </div>
-          </div>
-        </motion.div>
-      </div>
-    </section>
-
     {/* CTA */}
     <section className="section-padding">
       <div className="container-narrow mx-auto text-center">
@@ -228,6 +204,36 @@ const About = () => (
           >
             Discover our approach <ArrowRight size={18} />
           </Link>
+        </motion.div>
+      </div>
+    </section>
+
+    {/* Partners */}
+    <section className="section-padding border-t border-border">
+      <div className="container-narrow mx-auto">
+        <motion.div {...fadeUp}>
+          <div className="grid md:grid-cols-5 gap-8 items-center">
+            <div className="md:col-span-3">
+              <span className="inline-block text-muted-foreground/60 text-xs font-semibold uppercase tracking-wider mb-4">
+                Our partners
+              </span>
+              <h3 className="text-xl md:text-2xl font-bold mb-4">Supported by committed partners</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
+                We collaborate with partners who share our commitment to education and prevention. 
+                Their support helps us deliver high-quality workshops and expand our impact, while 
+                maintaining a fully independent and educational approach.
+              </p>
+              <p className="text-muted-foreground/60 text-xs leading-relaxed">
+                The project is supported by Yuh as a strategic partner, contributing to its development 
+                while ensuring the educational neutrality of the initiative.
+              </p>
+            </div>
+            <div className="md:col-span-2 flex items-center justify-center">
+              <div className="bg-muted/50 rounded-2xl px-12 py-8 flex items-center justify-center">
+                <img src={yuhLogo} alt="Yuh" className="h-7 opacity-50 grayscale" />
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
