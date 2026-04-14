@@ -216,6 +216,7 @@ const About = () => (
             tag="Our partners"
             title="Supported by committed partners."
           />
+          <div className="max-w-2xl mx-auto text-center">
             <p className="text-muted-foreground text-sm leading-relaxed mb-3">
               We collaborate with partners who share our commitment to education and prevention. 
               Their support helps us deliver high-quality workshops and expand our impact, while 
