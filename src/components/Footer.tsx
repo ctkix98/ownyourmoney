@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Heart } from "lucide-react";
+import yuhLogoWhite from "@/assets/yuh-logo-white.svg";
 
 const Footer = () => (
   <footer className="bg-foreground text-background section-padding">
@@ -28,7 +29,14 @@ const Footer = () => (
           </p>
         </div>
       </div>
-      <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+
+      {/* Partners line */}
+      <div className="border-t border-background/10 pt-6 pb-6 flex items-center justify-center gap-3">
+        <span className="text-background/40 text-xs uppercase tracking-wider">Supported by</span>
+        <img src={yuhLogoWhite} alt="Yuh" className="h-5 opacity-30" />
+      </div>
+
+      <div className="border-t border-background/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-background/50 text-xs">
           © {new Date().getFullYear()} Gère ta thune. All rights reserved.
         </p>
