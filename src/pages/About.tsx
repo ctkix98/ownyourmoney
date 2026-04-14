@@ -209,14 +209,14 @@ const About = () => (
     </section>
 
     {/* Partners */}
-    <section className="section-padding border-t border-border">
+    <section className="section-padding">
       <div className="container-narrow mx-auto">
         <motion.div {...fadeUp}>
-          <div className="max-w-2xl">
-            <span className="inline-block text-muted-foreground/60 text-xs font-semibold uppercase tracking-wider mb-4">
-              Our partners
-            </span>
-            <h3 className="text-xl md:text-2xl font-bold mb-4">Supported by committed partners</h3>
+          <SectionHeading
+            tag="Our partners"
+            title="Supported by committed partners."
+          />
+          <div className="max-w-2xl mx-auto text-center">
             <p className="text-muted-foreground text-sm leading-relaxed mb-3">
               We collaborate with partners who share our commitment to education and prevention. 
               Their support helps us deliver high-quality workshops and expand our impact, while 
