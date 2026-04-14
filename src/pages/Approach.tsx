@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import mascotRocket from "@/assets/mascot-rocket.jpg";
+import mascotRocket from "@/assets/mascot-rocket.svg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
