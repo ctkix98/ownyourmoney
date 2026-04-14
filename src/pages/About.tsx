@@ -212,25 +212,20 @@ const About = () => (
     <section className="section-padding border-t border-border">
       <div className="container-narrow mx-auto">
         <motion.div {...fadeUp}>
-          <div className="grid md:grid-cols-5 gap-8 items-center">
-            <div className="md:col-span-3">
-              <span className="inline-block text-muted-foreground/60 text-xs font-semibold uppercase tracking-wider mb-4">
-                Our partners
-              </span>
-              <h3 className="text-xl md:text-2xl font-bold mb-4">Supported by committed partners</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                We collaborate with partners who share our commitment to education and prevention. 
-                Their support helps us deliver high-quality workshops and expand our impact, while 
-                maintaining a fully independent and educational approach.
-              </p>
-              <p className="text-muted-foreground/60 text-xs leading-relaxed">
-                The project is supported by Yuh as a strategic partner, contributing to its development 
-                while ensuring the educational neutrality of the initiative.
-              </p>
-            </div>
-            <div className="md:col-span-2 flex items-center justify-center">
-              <img src={yuhLogo} alt="Yuh" className="h-12 opacity-50 grayscale" />
-            </div>
+          <div className="max-w-2xl">
+            <span className="inline-block text-muted-foreground/60 text-xs font-semibold uppercase tracking-wider mb-4">
+              Our partners
+            </span>
+            <h3 className="text-xl md:text-2xl font-bold mb-4">Supported by committed partners</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-3">
+              We collaborate with partners who share our commitment to education and prevention. 
+              Their support helps us deliver high-quality workshops and expand our impact, while 
+              maintaining a fully independent and educational approach.
+            </p>
+            <p className="text-muted-foreground/60 text-xs leading-relaxed">
+              The project is supported by Yuh as a strategic partner, contributing to its development 
+              while ensuring the educational neutrality of the initiative.
+            </p>
           </div>
         </motion.div>
       </div>
