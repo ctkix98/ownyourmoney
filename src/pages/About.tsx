@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Heart, Target, Users, Handshake, BookOpen, ArrowRight } from "lucide-react";
+import yuhLogo from "@/assets/yuh-logo-black.svg";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import mascotStanding from "@/assets/mascot-standing.svg";
@@ -194,15 +195,33 @@ const About = () => (
     </section>
 
     {/* Partners */}
+    <section className="section-padding bg-muted/30">
+      <div className="container-narrow mx-auto text-center">
+        <motion.div {...fadeUp}>
+          <Handshake size={36} className="text-muted-foreground mx-auto mb-4" />
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Supported by committed partners</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
+            We collaborate with partners who share our commitment to education and prevention. 
+            Their support helps us deliver high-quality workshops and expand our impact, while 
+            maintaining a fully independent and educational approach.
+          </p>
+          <p className="text-muted-foreground/70 text-sm max-w-xl mx-auto leading-relaxed mb-10">
+            The project is supported by Yuh as a strategic partner, contributing to its development 
+            while ensuring the educational neutrality of the initiative.
+          </p>
+          <div className="flex items-center justify-center">
+            <div className="bg-card border border-border rounded-2xl px-10 py-6">
+              <img src={yuhLogo} alt="Yuh" className="h-8 opacity-60" />
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+
+    {/* CTA */}
     <section className="section-padding">
       <div className="container-narrow mx-auto text-center">
         <motion.div {...fadeUp}>
-          <Handshake size={40} className="text-primary mx-auto mb-4" />
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Supported by partners who share our values.</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8">
-            We work with schools, institutions, and organizations who believe in equipping the next generation 
-            with essential life skills. Our content remains independent, neutral, and always educational.
-          </p>
           <Link
             to="/approach"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-semibold hover:opacity-90 transition-opacity"
