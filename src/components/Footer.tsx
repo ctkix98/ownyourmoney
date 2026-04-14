@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container-wide mx-auto">
       <div className="grid md:grid-cols-3 gap-12 mb-12">
         <div>
-          <h3 className="text-xl font-bold mb-4">Gère ta thune</h3>
+          <h3 className="text-xl font-bold mb-4">Own Your Money</h3>
           <p className="text-background/70 text-sm leading-relaxed">
             A non-profit association dedicated to financial education for teenagers. 
             Because understanding money is a life skill everyone deserves.
@@ -38,7 +38,7 @@ const Footer = () => (
 
       <div className="border-t border-background/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-background/50 text-xs">
-          © {new Date().getFullYear()} Gère ta thune. All rights reserved.
+          © {new Date().getFullYear()} Own Your Money. All rights reserved.
         </p>
         <p className="text-background/50 text-xs flex items-center gap-1">
           Made with <Heart size={12} className="text-primary" /> for financial literacy
