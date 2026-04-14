@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container-wide mx-auto flex items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Gère ta thune" className="h-10 md:h-12" />
+          <img src={logo} alt="Own Your Money" className="h-10 md:h-12" />
         </Link>
 
         {/* Desktop */}

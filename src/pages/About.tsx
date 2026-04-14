@@ -28,7 +28,7 @@ const About = () => (
               <span className="text-primary">understand money.</span>
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Gère ta thune is a non-profit association born from a simple observation: 
+              Own Your Money is a non-profit association born from a simple observation: 
               most young people finish school without ever learning how money works. 
               We're here to change that.
             </p>
@@ -229,9 +229,7 @@ const About = () => (
               </p>
             </div>
             <div className="md:col-span-2 flex items-center justify-center">
-              <div className="bg-muted/50 rounded-2xl px-12 py-8 flex items-center justify-center">
-                <img src={yuhLogo} alt="Yuh" className="h-7 opacity-50 grayscale" />
-              </div>
+              <img src={yuhLogo} alt="Yuh" className="h-12 opacity-50 grayscale" />
             </div>
           </div>
         </motion.div>
