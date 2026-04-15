@@ -44,7 +44,7 @@ const Index = () => (
               </span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Helping young people understand money in a simple, practical way — 
+              Helping young people understand money in a simple, practical way, 
               through interactive workshops, real-life examples, and open conversations.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -88,11 +88,11 @@ const Index = () => (
         <SectionHeading
           tag="The challenge"
           title="The world has changed. Education hasn't kept up."
-          subtitle="Financial education is mostly left to parents — but the landscape of money has changed dramatically."
+          subtitle="Financial education is mostly left to parents, but the landscape of money has changed dramatically."
         />
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            { icon: Smartphone, title: "Digital payments", desc: "Cash is disappearing. Young people tap, swipe, and subscribe — often without understanding what they spend." },
+            { icon: Smartphone, title: "Digital payments", desc: "Cash is disappearing. Young people tap, swipe, and subscribe, often without understanding what they spend." },
             { icon: CreditCard, title: "Subscriptions & traps", desc: "Free trials, in-app purchases, buy-now-pay-later. The traps are designed to be invisible." },
             { icon: TrendingUp, title: "Social media influence", desc: "Influencers promote spending. Teens feel pressure to buy without the tools to question it." },
           ].map((item, i) => (
@@ -126,7 +126,7 @@ const Index = () => (
             />
             <div className="space-y-5">
               {[
-                { icon: MessageCircle, text: "No boring lectures — open discussions and group activities" },
+                { icon: MessageCircle, text: "No boring lectures, just open discussions and group activities" },
                 { icon: Lightbulb, text: "Real-life scenarios: budgeting pocket money, spotting scams" },
                 { icon: Users, text: "Participation-first: every student is involved" },
               ].map((item, i) => (
@@ -208,13 +208,13 @@ const Index = () => (
             {
               icon: School,
               title: "Schools & institutions",
-              desc: "Bring interactive workshops to your classrooms. We handle everything — you just open the door.",
+              desc: "Bring interactive workshops to your classrooms. We handle everything, you just open the door.",
               bg: "gradient-blue",
             },
             {
               icon: UserCheck,
               title: "Young people",
-              desc: "Learn about money in a way that actually makes sense. No jargon, no judgment — just real life.",
+              desc: "Learn about money in a way that actually makes sense. No jargon, no judgment, just real life.",
               bg: "gradient-yellow",
             },
           ].map((item, i) => (
@@ -247,7 +247,7 @@ const Index = () => (
           <motion.div {...fadeUp}>
             <h3 className="text-2xl font-bold mb-3">Built on trust, grounded in real life.</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Our approach is practical and based on behavioral understanding — not abstract theory. 
+              Our approach is practical and based on behavioral understanding, not abstract theory. 
               We use real-life scenarios that teenagers recognize, so the lessons stick. 
               Everything we do is non-commercial, transparent, and designed with educators and parents in mind.
             </p>
@@ -265,7 +265,7 @@ const Index = () => (
             Ready to make a difference?
           </h2>
           <p className="text-background/70 text-lg mb-8 max-w-xl mx-auto">
-            Whether you're a parent, teacher, or institution — there's a way to get involved.
+            Whether you're a parent, teacher, or institution, there's a way to get involved.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

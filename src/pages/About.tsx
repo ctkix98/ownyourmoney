@@ -51,7 +51,7 @@ const About = () => (
         <SectionHeading
           tag="Why we exist"
           title="Financial education shouldn't be optional."
-          subtitle="In a world of digital payments, subscriptions, and online shopping, understanding money isn't a luxury — it's a necessity."
+          subtitle="In a world of digital payments, subscriptions, and online shopping, understanding money isn't a luxury. It's a necessity."
         />
         <motion.div {...fadeUp} className="bg-primary/5 rounded-3xl p-8 md:p-12 border border-primary/10">
           <div className="grid md:grid-cols-2 gap-8">
@@ -139,7 +139,7 @@ const About = () => (
             "We use role-play, group discussions, and real-life case studies",
             "Students work together to solve challenges they'll actually face",
             "Every session is adapted to the age group and their reality",
-            "We keep it fun — because learning about money shouldn't be boring",
+            "We keep it fun, because learning about money shouldn't be boring",
           ].map((text, i) => (
             <div key={i} className="flex items-start gap-4 bg-muted/50 rounded-xl p-5">
               <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
@@ -164,7 +164,7 @@ const About = () => (
             />
             <p className="text-muted-foreground leading-relaxed mb-6">
               Workshops are just the start. We provide parents with simple tools and conversation 
-              starters so they can continue building financial awareness at home — no expertise required.
+              starters so they can continue building financial awareness at home. No expertise required.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               You don't need to be a financial expert. You just need to be willing to talk 
