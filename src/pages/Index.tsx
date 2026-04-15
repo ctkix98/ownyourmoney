@@ -49,7 +49,7 @@ const Index = () => (
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                to="/approach"
+                to="/resources"
                 className="bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
               >
                 Explore resources <ArrowRight size={18} />
@@ -275,7 +275,7 @@ const Index = () => (
               Organize a workshop
             </Link>
             <Link
-              to="/approach"
+              to="/resources"
               className="border-2 border-background/30 text-background px-7 py-3.5 rounded-full font-semibold hover:border-background transition-colors"
             >
               Access parent resources
