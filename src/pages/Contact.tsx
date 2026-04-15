@@ -76,7 +76,7 @@ const Contact = () => {
       {/* Contact form */}
       <section className="section-padding">
         <div className="container-narrow mx-auto max-w-2xl">
-          <SectionHeading tag="Write to us" title="Send us a message" />
+          <SectionHeading title="Send us a message" />
 
           <motion.form
             onSubmit={handleSubmit}
@@ -180,46 +180,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Who is this for */}
-      <section className="section-padding bg-secondary/20">
-        <div className="container-narrow mx-auto">
-          <SectionHeading tag="Our audience" title="Who is this for?" />
-          <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            {[
-              {
-                icon: School,
-                title: "Schools",
-                desc: "Our workshops are designed for young people aged 13 to 15 and take place in schools.",
-                color: "bg-primary/10 text-primary",
-              },
-              {
-                icon: Heart,
-                title: "Parents",
-                desc: "Parents are welcome to reach out for resources, questions or to learn more about our approach.",
-                color: "bg-accent/30 text-accent-foreground",
-              },
-              {
-                icon: Users,
-                title: "Institutions",
-                desc: "Youth organizations and educational institutions can partner with us for tailored programs.",
-                color: "bg-secondary text-secondary-foreground",
-              },
-            ].map((item) => (
-              <motion.div
-                key={item.title}
-                className="text-center"
-                {...fadeUp}
-              >
-                <div className={`w-14 h-14 rounded-2xl ${item.color} flex items-center justify-center mx-auto mb-4`}>
-                  <item.icon size={24} />
-                </div>
-                <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };
