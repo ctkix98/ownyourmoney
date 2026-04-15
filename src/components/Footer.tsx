@@ -19,6 +19,7 @@ const Footer = () => (
             <Link to="/" className="text-background/70 text-sm hover:text-background transition-colors">Home</Link>
             <Link to="/about" className="text-background/70 text-sm hover:text-background transition-colors">About Us</Link>
             <Link to="/approach" className="text-background/70 text-sm hover:text-background transition-colors">Our Approach</Link>
+            <Link to="/contact" className="text-background/70 text-sm hover:text-background transition-colors">Contact</Link>
           </div>
         </div>
         <div>
