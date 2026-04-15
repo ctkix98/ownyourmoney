@@ -30,7 +30,7 @@ const Approach = () => (
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed mb-8">
             Money is a serious topic. But that doesn't mean learning about it has to be serious. 
-            We make it simple, relatable, and — dare we say — fun.
+            We make it simple, relatable, and, dare we say, fun.
           </p>
           <img
             src={mascotRocket}
@@ -46,7 +46,7 @@ const Approach = () => (
       <div className="container-narrow mx-auto">
         <SectionHeading
           tag="Our tone"
-          title="We talk about money like a friend — not a banker."
+          title="We talk about money like a friend, not a banker."
         />
         <div className="grid md:grid-cols-3 gap-8">
           {[
@@ -65,7 +65,7 @@ const Approach = () => (
             {
               icon: Sparkles,
               title: "Real-life language",
-              desc: "We talk about pocket money, subscriptions, and online shopping — not stocks and bonds.",
+              desc: "We talk about pocket money, subscriptions, and online shopping, not stocks and bonds.",
               color: "bg-primary/10 text-primary",
             },
           ].map((item, i) => (
@@ -100,7 +100,7 @@ const Approach = () => (
             {
               icon: Puzzle,
               title: "Interactive workshops",
-              desc: "Students don't sit and listen — they participate. Through group activities, games, and discussions, they discover concepts themselves.",
+              desc: "Students don't sit and listen. They participate. Through group activities, games, and discussions, they discover concepts themselves.",
             },
             {
               icon: Lightbulb,
@@ -110,7 +110,7 @@ const Approach = () => (
             {
               icon: Compass,
               title: "Focus on behavior",
-              desc: "We don't just teach facts about money. We help young people understand why they make certain choices — and how to make better ones.",
+              desc: "We don't just teach facts about money. We help young people understand why they make certain choices, and how to make better ones.",
             },
             {
               icon: CheckCircle2,
@@ -150,7 +150,7 @@ const Approach = () => (
             We're not trying to create financial experts.
           </h2>
           <p className="text-background/70 text-lg max-w-2xl mx-auto leading-relaxed mb-8">
-            Our goal is much simpler — and more powerful. We want to create awareness. 
+            Our goal is much simpler, and more powerful. We want to create awareness. 
             We want teenagers to pause before they spend, to ask questions, and to understand 
             that every financial decision matters. Even the small ones.
           </p>
