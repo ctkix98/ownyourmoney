@@ -247,7 +247,7 @@ const Index = () => (
           <motion.div {...fadeUp}>
             <h3 className="text-2xl font-bold mb-3">Built on trust, grounded in real life.</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Our approach is practical and based on behavioral understanding — not abstract theory. 
+              Our approach is practical and based on behavioral understanding, not abstract theory. 
               We use real-life scenarios that teenagers recognize, so the lessons stick. 
               Everything we do is non-commercial, transparent, and designed with educators and parents in mind.
             </p>
