@@ -177,16 +177,16 @@ const Approach = () => (
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              to="/about"
+              to="/contact"
               className="bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
             >
-              Learn about us <ArrowRight size={18} />
+              Get in touch <ArrowRight size={18} />
             </Link>
             <Link
-              to="/"
+              to="/about"
               className="border-2 border-foreground/20 text-foreground px-7 py-3.5 rounded-full font-semibold hover:border-primary hover:text-primary transition-colors"
             >
-              Back to home
+              Learn about us
             </Link>
           </div>
         </motion.div>

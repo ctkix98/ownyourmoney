@@ -8,6 +8,7 @@ const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/approach", label: "Our Approach" },
+  { to: "/contact", label: "Contact" },
 ];
 
 const Navbar = () => {
@@ -35,7 +36,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link
-            to="/approach"
+            to="/contact"
             className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Get Involved
@@ -75,7 +76,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link
-                to="/approach"
+                to="/contact"
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold text-center"
               >

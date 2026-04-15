@@ -55,7 +55,7 @@ const Index = () => (
                 Explore resources <ArrowRight size={18} />
               </Link>
               <Link
-                to="/about"
+                to="/contact"
                 className="border-2 border-foreground/20 text-foreground px-7 py-3.5 rounded-full font-semibold hover:border-primary hover:text-primary transition-colors"
               >
                 Bring a workshop to your school
@@ -269,7 +269,7 @@ const Index = () => (
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              to="/about"
+              to="/contact"
               className="bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-semibold hover:opacity-90 transition-opacity"
             >
               Organize a workshop
