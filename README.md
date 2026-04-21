@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Project Own Your Money by Nasdaq
 
-TODO: Document your project here
+
